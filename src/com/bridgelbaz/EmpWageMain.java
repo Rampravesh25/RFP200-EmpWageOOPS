@@ -12,6 +12,7 @@ public class EmpWageMain {
             System.out.println("Employee is Present");
         }
 
-        empWage.dailWage();
+        int data = empWage.dailWage();
+        System.out.println(" Emp Wage Calculated for Full Day :-" + data);
     }
 }
